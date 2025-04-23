@@ -1,0 +1,179 @@
+/* Responsive CSS for MindChain Landing Page */
+
+/* Large Devices (Desktops) */
+@media (max-width: 1199.98px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .section-header h2 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media (max-width: 991.98px) {
+    .navbar .navbar-collapse {
+        margin-top: 1rem;
+    }
+    
+    .hero-section {
+        padding: 80px 0 40px;
+    }
+    
+    .hero-content {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-buttons {
+        justify-content: center;
+    }
+    
+    .architecture-image {
+        margin-bottom: 2rem;
+    }
+    
+    .newsletter-container {
+        padding: 2rem;
+    }
+    
+    .newsletter-form {
+        margin-top: 1.5rem;
+    }
+}
+
+/* Small Devices (Mobile Landscape) */
+@media (max-width: 767.98px) {
+    body {
+        padding-top: 76px;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-section {
+        padding: 60px 0 30px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-content .badges .badge {
+        font-size: 0.7rem;
+    }
+    
+    .code-snippet {
+        font-size: 0.8rem;
+    }
+    
+    .code-tabs .nav-link {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+    }
+    
+    .feature-card, 
+    .use-case-card, 
+    .resource-card {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .architecture-item {
+        margin-bottom: 1.5rem;
+    }
+    
+    .step-item {
+        flex-direction: column;
+    }
+    
+    .step-number {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+    
+    .step-item:not(:last-child)::after {
+        left: 20px;
+        top: 40px;
+        bottom: -20px;
+    }
+    
+    .newsletter-container {
+        padding: 1.5rem;
+    }
+    
+    .footer {
+        padding: 50px 0 20px;
+        text-align: center;
+    }
+    
+    .footer-brand {
+        justify-content: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .footer h4 {
+        margin-top: 1.5rem;
+    }
+}
+
+/* Extra Small Devices (Mobile Portrait) */
+@media (max-width: 575.98px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .section-header h2 {
+        font-size: 1.6rem;
+    }
+    
+    .code-block pre {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .tab-content {
+        padding: 1rem;
+    }
+    
+    .steps-container {
+        padding: 0 1rem;
+    }
+    
+    .newsletter-container {
+        padding: 1.5rem;
+    }
+    
+    .newsletter-form .input-group {
+        flex-direction: column;
+    }
+    
+    .newsletter-form .form-control {
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .newsletter-form .btn {
+        border-radius: 0.5rem;
+        width: 100%;
+    }
+}
